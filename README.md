@@ -1,5 +1,4 @@
-# ZXH Personal Space (个人空间)这是一个基于 **Spring Boot 3** 和 **Vue 3** 构建的现代化个人博客与展示网站。集成了博客文章管理、摄影作品展示、实用工具箱以及后台管理功能。## 🚀 技术栈### 后端 (Backend)- **Core**: Spring Boot 3.2.0- **Language**: Java 17- **Database**: H2 Database (内存数据库，开发便捷)- **ORM**: Spring Data JPA- **Build Tool**: Maven### 前端 (Frontend)- **Framework**: Vue 3 (Composition API)- **Build Tool**: Vite- **Styling**: Tailwind CSS- **Routing**: Vue Router- **Icons**: Lucide Vue Next- **HTTP Client**: Native Fetch API## ✨ 功能特性- **🏠 首页 (Home)**  - 动态欢迎语与个人简介  - 最新博客文章预览  - 精选摄影作品展示  - 响应式布局设计- **📝 博客 (Blog)**  - 文章列表展示  - 支持标签分类  - 阅读时间预估- **📷 摄影集 (Gallery)**  - 瀑布流/网格布局展示  - 灯箱 (Lightbox) 查看大图模式  - 照片详细信息（拍摄地点、时间）- **🧰 工具箱 (Toolbox)**  - 集成实用小工具（文档转换、文件分享等演示功能）- **⚙️ 后台管理 (Admin)**  - 访问地址: `/admin`  - **文章管理**: 发布、编辑、删除博客文章  - **照片管理**: 上传、编辑、删除摄影作品  - 可视化操作界面## 🛠️ 快速开始### 1. 环境准备- JDK 17 或更高版本- Node.js 18+
-- Maven 3.6+
+# ZXH Personal Space (个人空间)这是一个基于 **Spring Boot 3** 和 **Vue 3** 构建的现代化个人博客与展示网站。
 
 ### 2. 启动后端服务
 ```bash

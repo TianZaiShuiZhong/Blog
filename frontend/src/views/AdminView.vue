@@ -50,9 +50,14 @@ const savePost = async () => {
     if (res.ok) {
       isEditing.value = false
       fetchData()
+      alert('保存成功！')
+    } else {
+      const errorText = await res.text()
+      alert(`保存失败: ${res.status} ${res.statusText}\n${errorText}`)
     }
   } catch (e) {
     console.error('Failed to save post', e)
+    alert('保存失败，网络错误: ' + e.message)
   }
 }
 
@@ -92,9 +97,14 @@ const savePhoto = async () => {
     if (res.ok) {
       isEditing.value = false
       fetchData()
+      alert('保存成功！')
+    } else {
+      const errorText = await res.text()
+      alert(`保存失败: ${res.status} ${res.statusText}\n${errorText}`)
     }
   } catch (e) {
     console.error('Failed to save photo', e)
+    alert('保存失败，网络错误: ' + e.message)
   }
 }
 

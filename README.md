@@ -26,7 +26,7 @@ npm run dev
 xxm/
 ├── backend/                 # Spring Boot 后端源码
 │   ├── src/main/java/       # Java 源代码 (Controller, Service, Model)
-│   └── src/main/resources/  # 配置文件 (application.properties)
+│   └── src/main/resources/  # 配置文件 (application.yml)
 ├── frontend/                # Vue 3 前端源码
 │   ├── src/views/           # 页面组件 (Home, Blog, Gallery, Admin...)
 │   ├── src/router/          # 路由配置
